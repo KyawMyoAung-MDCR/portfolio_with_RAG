@@ -53,7 +53,7 @@ export default function Home() {
             
             <div className="relative w-36 h-36 mb-6 rounded-full overflow-hidden border-4 border-slate-800 shadow-2xl bg-slate-900 transition-transform duration-500 group-hover:scale-105">
               <Image 
-                src="/profile.jpg"
+                src="/profile.png"
                 alt="Profile Image"
                 fill
                 className="object-cover"
