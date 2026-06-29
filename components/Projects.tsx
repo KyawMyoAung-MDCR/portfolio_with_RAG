@@ -5,10 +5,10 @@ export default function Projects() {
     <section className="py-12 border-t border-gray-200">
       {/* Skills Section */}
       <div className="mb-12">
-        <h2 className="text-2xl font-bold text-blue-700 mb-4">Skills</h2>
+        <h2 className="text-2xl font-bold text-blue-500 mb-4">Skills</h2>
         <div className="flex flex-wrap gap-2">
           {skillsData.map((skill) => (
-            <span key={skill} className="px-3 py-1 text-blue-700 text-gray-100 text-sm font-medium rounded-full border">
+            <span key={skill} className="px-3 py-1 text-blue-500 text-gray-100 text-sm font-medium rounded-full border">
               {skill}
             </span>
           ))}
@@ -17,7 +17,7 @@ export default function Projects() {
 
       {/* Projects Section */}
       <div>
-        <h2 className="text-2xl font-bold text-blue-700 mb-6">Featured Projects</h2>
+        <h2 className="text-2xl font-bold text-blue-500 mb-6">Featured Projects</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           {projectsData.map((project, idx) => (
             <div key={idx} className="p-6 bg-white rounded-xl border text-gray-900 shadow-sm hover:shadow-md transition flex flex-col justify-between">
@@ -38,7 +38,7 @@ export default function Projects() {
                     href={project.githubUrl}
                     target="_blank"         
                     rel="noopener noreferrer" 
-                    className="inline-flex items-center text-sm font-medium text-blue-600 hover:text-blue-800 hover:underline gap-1"
+                    className="inline-flex items-center text-sm font-medium text-blue-500 hover:text-blue-800 hover:underline gap-1"
                   >
                     View on GitHub →
                   </a>
