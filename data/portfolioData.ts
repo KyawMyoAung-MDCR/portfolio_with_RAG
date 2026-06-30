@@ -65,7 +65,7 @@ export const aboutMeData = {
   text: "I am a Junior Developer at MyanmarDCR Co., Ltd., with a strong foundation in Java development and hands-on training in SAP S/4HANA. I graduated from the University of Technology (Yatanarpon Cyber City), where I specialized in Machine Learning and Deep Learning. Driven by a deep passion for AI model training and development, I built an automated alert system for restricted areas using YOLOv8 for my graduation thesis. I am eager to bridge the gap between enterprise software engineering and advanced AI solutions.",
   email: "kyawmyoaung@myanmardcr.com", 
   university: "University of Technology (Yatanapon Cybercity)", 
-  degree : "Bachelor of Engineering (B.E.IST)",
+  degree : "Bachelor of Engineering (BE.IST)",
   thesis: "Development of AI-Powered automated surveillance solution using Python, YOLOv8, and OpenCV to detect unauthorized personnel entering restricted zones in real-time and trigger instant system alerts.", 
   languages: ["Japanese (N4), English (intermediate)"] 
 };
