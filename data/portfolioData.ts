@@ -41,10 +41,10 @@ export const experiencesData: Experience[] = [
 
 export const projectsData: Project[] = [
   {
-    title: "TypeScript Counter Application",
-    description: "A highly interactive web-based counter application demonstrating clean architecture, component separation, and watch-mode compilation in TypeScript.",
-    techStack: ["HTML5", "CSS3", "TypeScript", "Live Server"],
-    githubUrl: "https://github.com/KyawMyoAung-MDCR"
+    title: "AI-Powered Premium Developer Portfolio",
+    description: "A futuristic, highly interactive developer portfolio built with Next.js and Tailwind CSS. It features professional animated page transitions via Framer Motion and an advanced AI chatbot assistant integrated with a custom Supabase pgvector RAG engine for semantic resume parsing and dynamic chat memory tracking.",
+    techStack: ["Next.js", "Tailwind CSS", "TypeScript", "Gemini API"],
+    githubUrl: "https://github.com/KyawMyoAung-MDCR/my-portfolio"
   }
 ];
 
